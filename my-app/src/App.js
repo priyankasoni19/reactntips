@@ -3,10 +3,16 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Header from './components/Header';
+
+
 
 function App() {
   return (
     <Router>
+
+<Header/>
+
       <nav style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
         <Link to="/" style={{ marginRight: '10px' }}>Home</Link>
         <Link to="/about" style={{ marginRight: '10px' }}>About</Link>
