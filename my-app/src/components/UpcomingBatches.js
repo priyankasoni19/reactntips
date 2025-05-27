@@ -46,7 +46,7 @@ function UpcomingBatches() {
             </div>
             <div className="batch-content">
               <div className="batch-icon">
-                <img src="https://via.placeholder.com/50" alt={batch.title} />
+                <img src="NTI-logo_color.png" alt={batch.title} />
               </div>
               <h3>{batch.title}</h3>
               <p><strong>Branch:</strong> {batch.branch}</p>
