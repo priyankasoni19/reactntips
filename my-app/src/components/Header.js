@@ -1,11 +1,13 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
+
 
 function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <img src="https://via.placeholder.com/100x50?text=DUCAT" alt="DUCAT Logo" />
+        <img src="NTI-logo_color.png" alt="DUCAT Logo" />
         <span>The IT Training School</span>
       </div>
 
@@ -20,9 +22,12 @@ function Header() {
           </div>
         </div>
         <a href="#">Placement</a>
-        <a href="#">Corporate Training</a>
-        <a href="#">Online Registration</a>
-        <a href="#">Certificate</a>
+        <Link to="/CorporateTraining">Corporate Training</Link>
+        
+         <Link to="/OnlineRegistrationForm">Online Registration</Link>
+         <Link to="/Certificate">Certificate</Link>
+
+        
         <div className="ai-guidance">
           <span className="ai-badge">AI-Powered</span>
           <a href="#" className="career-guidance">

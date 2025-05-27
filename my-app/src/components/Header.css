@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  padding: 10px 20px;
+  padding: 10px 100px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   font-family: Arial, sans-serif;
 }
@@ -113,4 +113,11 @@
   border-width: 5px;
   border-style: solid;
   border-color: transparent transparent black transparent;
+}
+
+@media (max-width:720px) {
+  .header {
+    flex-direction: column;
+    padding: 10px;
+  }
 }
