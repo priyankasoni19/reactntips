@@ -1,33 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 
-
 function Header() {
+  const [navActive, setNavActive] = useState(false);
+
   return (
     <header className="header">
       <div className="logo">
-        <img src="NTI-logo_color.png" alt="DUCAT Logo" />
+        <img src="NTI-logo_color.png" alt="NTI Logo" />
         <span>The IT Training School</span>
       </div>
 
-      <nav className="nav">
-        <a href="#">Home</a>
+      <button className="hamburger" onClick={() => setNavActive(!navActive)}>
+        ☰
+      </button>
+
+      <nav className={`nav ${navActive ? 'active' : ''}`}>
+        <Link to="/">Home</Link>
+
         <div className="dropdown">
-          <a href="#">Courses ▼</a>
+          <button>Courses ▼</button>
           <div className="dropdown-content">
-            <a href="#">Web Development</a>
-            <a href="#">Java</a>
-            <a href="#">Python</a>
+            <Link to="/courses/web-development">Web Development</Link>
+            <Link to="/courses/java">Java</Link>
+            <Link to="/courses/python">Python</Link>
           </div>
         </div>
-        <a href="#">Placement</a>
-        <Link to="/CorporateTraining">Corporate Training</Link>
-        
-         <Link to="/OnlineRegistrationForm">Online Registration</Link>
-         <Link to="/Certificate">Certificate</Link>
 
-        
+        <Link to="/placement">Placement</Link>
+        <Link to="/corporate-training">Corporate Training</Link>
+        <Link to="/online-registration">Online Registration</Link>
+        <Link to="/certificate">Certificate</Link>
+
         <div className="ai-guidance">
           <span className="ai-badge">AI-Powered</span>
           <a href="#" className="career-guidance">
@@ -35,11 +40,12 @@ function Header() {
             <span className="tooltip">Free career guidance. Chat with our AI expert!</span>
           </a>
         </div>
+
         <div className="dropdown">
-          <a href="#">Others ▼</a>
+          <button>Others ▼</button>
           <div className="dropdown-content">
-            <a href="#">About Us</a>
-            <a href="#">Contact</a>
+            <Link to="/about">About Us</Link>
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
       </nav>
