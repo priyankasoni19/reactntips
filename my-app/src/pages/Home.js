@@ -2,6 +2,16 @@ import React from 'react';
 import './Home.css';
 import ExploreTopPrograms from '../components/ExploreTopPrograms';
 import UpcomingBatches from '../components/UpcomingBatches';
+import TopCourses from '../components/TopCourses';
+import Testimonials from '../components/Testimonials';
+import FindTheRightCourse from '../components/FindTheRightCourse';
+import OurPlacementPartners from '../components/OurPlacementPartners';
+import RecentBlogs from '../components/RecentBlogs';
+
+
+
+
+
 
 
 
@@ -53,6 +63,17 @@ function Home() {
 <ExploreTopPrograms/>
 
 <UpcomingBatches/>
+
+<TopCourses/>
+
+<Testimonials/>
+
+<FindTheRightCourse/>
+
+<OurPlacementPartners/>
+
+<RecentBlogs/>
+
 
 
 
