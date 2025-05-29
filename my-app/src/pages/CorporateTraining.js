@@ -1,9 +1,21 @@
 import React from 'react';
 import './CorporateTraining.css';
+import OurPlacementPartners from '../components/OurPlacementPartners';
+import CTP from '../components/CTP';
+import DucatTrainingSteps from '../components/DucatTrainingSteps';
+import FeatureCards from '../components/FeatureCards';
+import DFCSection from '../components/DFCSection';
+import GEGSection from '../components/GEGSection';
+  
+
+
+
+
 
 function CorporateTraining() {
   return (
-    <div className="corporate-training-container">
+    <div>
+<div className="corporate-training-container">
       <div className="corporate-left">
         <h2>
           Level Up Your <span>Workforce</span>, <br />
@@ -30,6 +42,23 @@ function CorporateTraining() {
         </form>
       </div>
     </div>
+      
+<OurPlacementPartners/>
+
+<CTP/>
+
+<DucatTrainingSteps/>
+
+<FeatureCards/>
+
+<DFCSection/>
+
+<GEGSection/>
+
+
+
+    </div>
+    
   );
 }
 

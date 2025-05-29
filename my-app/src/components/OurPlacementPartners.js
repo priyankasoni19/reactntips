@@ -12,7 +12,7 @@ const partners = [
   { name: 'Algoscale', logo: '4a1f15442e6f-algoscaletechnologieslogo-1644803841444.avif' },
   { name: 'Bajaj', logo: 'images (1).jpeg' },
   { name: 'IBM', logo: '1698290270-4070-IBM-logo-1972.jpg' },
-  { name: 'Sopra Steria', logo: 'https://via.placeholder.com/150x80?text=Sopra+Steria' },
+  { name: 'Sopra Steria', logo: 'sopra_steria_logo.webp' },
   { name: 'Infosys', logo: 'infosys-logo-infosys-icon-free-free-vector.jpg' },
   { name: 'Birlasoft', logo: 'social-logo.gif' },
   { name: 'TCS', logo: 'TATA-Consultancy-Services-logo-01.png' },
