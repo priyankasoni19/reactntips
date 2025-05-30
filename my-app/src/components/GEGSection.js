@@ -2,7 +2,6 @@ import React from 'react';
 import './GEGSection.css';
 import { FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 
-
 const GEGSection = () => {
   return (
     <section className="geg-container">
@@ -18,8 +17,8 @@ const GEGSection = () => {
           </div>
           <div className="geg-contact">
             <FaWhatsapp className="icon whatsapp" />
-            <a href="https://wa.me/918742993469" target="_blank" rel="noopener noreferrer">
-              +91-8742993469
+            <a href="https://wa.me/07662-462289" target="_blank" rel="noopener noreferrer">
+              9174253016
             </a>
           </div>
         </div>

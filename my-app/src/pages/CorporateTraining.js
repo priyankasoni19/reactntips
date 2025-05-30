@@ -6,7 +6,14 @@ import DucatTrainingSteps from '../components/DucatTrainingSteps';
 import FeatureCards from '../components/FeatureCards';
 import DFCSection from '../components/DFCSection';
 import GEGSection from '../components/GEGSection';
-  
+import TopCourses from '../components/TopCourses';
+import OurSuccess from '../components/OurSuccess';
+import EnquiryNow from '../components/EnquiryNow';
+import FAQSection from '../components/FAQSection';
+import TestimonialCard from '../components/TestimonialCard';
+
+
+   
 
 
 
@@ -55,6 +62,15 @@ function CorporateTraining() {
 
 <GEGSection/>
 
+<TopCourses/>
+
+<OurSuccess/>
+
+<EnquiryNow/>
+
+<FAQSection/>
+
+<TestimonialCard/>
 
 
     </div>
