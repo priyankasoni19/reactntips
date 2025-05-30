@@ -4,8 +4,11 @@
   display: flex;
   flex-wrap: wrap;
   padding: 2rem;
-  /* background: url'my-app/public/closeup-pen-chart-blur-working-hands-businessman-analysis-73017544.webp' no-repeat center/cover; */
-  background-color: #7caee8;
+  background: linear-gradient(rgb(129, 129, 231),white);
+
+
+  background-repeat: no-repeat;
+  background-size: cover;
   
   color: #191818c2;
 }

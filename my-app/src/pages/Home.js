@@ -7,6 +7,7 @@ import Testimonials from '../components/Testimonials';
 import FindTheRightCourse from '../components/FindTheRightCourse';
 import OurPlacementPartners from '../components/OurPlacementPartners';
 import RecentBlogs from '../components/RecentBlogs';
+import GEGSection from '../components/GEGSection';
 
 
 
@@ -63,6 +64,8 @@ function Home() {
 <ExploreTopPrograms/>
 
 <UpcomingBatches/>
+
+<GEGSection/>
 
 <TopCourses/>
 
