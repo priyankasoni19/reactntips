@@ -8,8 +8,9 @@ import Footer from './components/Footer';
 import OnlineRegistrationForm from './pages/OnlineRegistrationForm';
 import Certificate from './pages/Certification';
 import CorporateTraining from './pages/CorporateTraining';
+  
 
- 
+
 
 function App() {
   return (
