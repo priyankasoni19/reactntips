@@ -1,6 +1,8 @@
 import React from 'react';
 import './PlacementSection.css';
 import Placement from '../components/Placement';
+import OurPlacementPartners from '../components/OurPlacementPartners';
+
 
 
 
@@ -16,7 +18,7 @@ const PlacementSection = () => {
         </section>
       </div>
       <Placement />
-
+<OurPlacementPartners />
 
     </>
 
