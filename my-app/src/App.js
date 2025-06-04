@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
 import Contact from './pages/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -9,6 +8,7 @@ import OnlineRegistrationForm from './pages/OnlineRegistrationForm';
 import Certificate from './pages/Certification';
 import CorporateTraining from './pages/CorporateTraining';
 import PlacementSection from './pages/PlacementSection';
+import AboutUs from './pages/AboutUs';
 
   
 
@@ -29,12 +29,12 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/OnlineRegistrationForm" element={<OnlineRegistrationForm />} />
         <Route path="/CorporateTraining" element={<CorporateTraining />} />
         <Route path="/Certificate" element={<Certificate />} />
         <Route path="/PlacementSection" element={<PlacementSection />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
       </Routes>
 
 

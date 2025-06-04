@@ -53,6 +53,10 @@ function Header() {
               <Link className="nav-link" to="/certificate">Certificate</Link>
             </li>
 
+<li className="nav-item">
+              <Link className="nav-link" to="/AboutUs">AboutUs</Link>
+            </li>
+
             <li className="nav-item ai-guidance d-flex align-items-center">
               <span className="ai-badge me-2">AI-Powered</span>
               <a href="#" className="nav-link position-relative">
@@ -66,7 +70,9 @@ function Header() {
                 Others
               </a>
               <ul className="dropdown-menu" aria-labelledby="othersDropdown">
-                <li><Link className="dropdown-item" to="/about">About Us</Link></li>
+                <li><Link className="dropdown-item" to="/about">About</Link></li>
+
+
                 <li><Link className="dropdown-item" to="/contact">Contact</Link></li>
               </ul>
             </li>
