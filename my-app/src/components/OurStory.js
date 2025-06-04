@@ -26,6 +26,12 @@ const OurStory = () => {
       {/* <div className="story-image">
         <img src={teamImage} alt="Ducat Team" />
       </div> */}
+
+<div className='box'>
+
+
+</div>
+
     </section>
   );
 };
