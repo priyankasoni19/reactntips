@@ -37,6 +37,7 @@ function Header() {
                 <li><Link className="dropdown-item" to="/courses/web-development">Web Development</Link></li>
                 <li><Link className="dropdown-item" to="/courses/java">Java</Link></li>
                 <li><Link className="dropdown-item" to="/courses/python">Python</Link></li>
+                <li><Link className="dropdown-item" to="/courses/React">React</Link></li>
               </ul>
             </li>
 

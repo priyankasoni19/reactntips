@@ -5,6 +5,7 @@ import OurStory from '../components/OurStory';
 import OurMission from '../components/OurMission';
 import MeetTeam from '../components/MeetTeam';
 import WhyDucat from '../components/WhyDucat';
+import CoursesMenu from '../components/CoursesMenu';
 
 
 const AboutUs = () => {

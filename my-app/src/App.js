@@ -3,12 +3,14 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Header from './components/Header';
-import Footer from './components/Footer';
 import OnlineRegistrationForm from './pages/OnlineRegistrationForm';
 import Certificate from './pages/Certification';
 import CorporateTraining from './pages/CorporateTraining';
 import PlacementSection from './pages/PlacementSection';
 import AboutUs from './pages/AboutUs';
+import Footer from './components/Footer';
+
+
 
   
 
@@ -40,7 +42,7 @@ function App() {
 
       <div>
       <h1>NTI Training School</h1>
-      <Footer />
+      <Footer/>
     </div>
     </Router>
   );
