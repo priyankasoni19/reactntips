@@ -73,7 +73,7 @@ function App() {
               <Route path="/address" element={<Address />} />
               <Route path="/placement-cards" element={<PlacementCards />} />
               <Route path="/about" element={<About />} />
-              <Route path="/AdminDashboard" element={<AdminDashboard />} />
+
 
 
 

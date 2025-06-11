@@ -29,8 +29,6 @@ import ContactUs from './pages/ContactUs';
 import Address from './pages/Address';
 import PlacementCards from './pages/PlacementCards';
 import About from './pages/About';
-import AdminDashboard from './components/AdminDashboard';
-
 
 
 import './App.css';
@@ -73,7 +71,7 @@ function App() {
               <Route path="/address" element={<Address />} />
               <Route path="/placement-cards" element={<PlacementCards />} />
               <Route path="/about" element={<About />} />
-              <Route path="/AdminDashboard" element={<AdminDashboard />} />
+
 
 
 
@@ -83,7 +81,6 @@ function App() {
 
       // <div>
       //   <h1>NTI Training School</h1>
-      
       //   <Footer />
       // </div>
     </Router>

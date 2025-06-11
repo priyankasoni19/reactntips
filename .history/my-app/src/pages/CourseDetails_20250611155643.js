@@ -7,7 +7,7 @@ import {
   FaProjectDiagram,
   FaGraduationCap,
 } from 'react-icons/fa';
-// import './CourseTemplate.css'; // optional styling
+import './CourseTemplate.css'; // optional styling
 
 const DEFAULT_IMG = "https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif";
 
