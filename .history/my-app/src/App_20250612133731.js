@@ -61,7 +61,7 @@ function App() {
         <Route path="/placement-cards" element={<PlacementCards />} />
         <Route path="/about" element={<About />} />
         <Route path="/AdminDashboard" element={<AdminDashboard />} />
-        <Route path="/course-details" element={<CourseDetails/>}/>
+        <Route path="/course-details" element={<CourseDetails/>}
 
       </Routes>
 

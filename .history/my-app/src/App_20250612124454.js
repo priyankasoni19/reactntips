@@ -11,10 +11,13 @@ import AboutUs from './pages/AboutUs';
 import Footer from './components/Footer';
 import Dashboard from './pages/Dashboard';
 import Users from './pages/Users';
+
 import Settings from './pages/Settings';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
+
 import HeroesCardPlacedCandidate from './pages/HeroesCardPlacedCandidate';
+import CourseDetails from './pages/CourseDetails';
 import OurLearners1 from './pages/OurLearners1';
 import UpcomingBatch from './pages/UpcomingBatch';
 import Testimonials from './pages/Testimonials';
@@ -27,8 +30,12 @@ import Address from './pages/Address';
 import PlacementCards from './pages/PlacementCards';
 import About from './pages/About';
 import AdminDashboard from './components/AdminDashboard';
+
+
+
 import './App.css';
-import CourseDetails from './pages/CourseDetails';
+
+
 
 function App() {
   return (
@@ -48,27 +55,31 @@ function App() {
         <Route path="/Settings" element={<Settings />} />
         <Route path="/Sidebar" element={<Sidebar />} />
         <Route path="/Navbar" element={<Navbar />} />
-        <Route path="/heroes-card" element={<HeroesCardPlacedCandidate />} />
-        <Route path="/our-learners1" element={<OurLearners1 />} />
-        <Route path="/upcoming-batch" element={<UpcomingBatch />} />
-        <Route path="/testimonials" element={<Testimonials />} />
-        <Route path="/our-placement" element={<OurPlacement />} />
-        <Route path="/privacy" element={<Privacy />} />
-        <Route path="/policies" element={<Policies />} />
-        <Route path="/follow-us" element={<FollowUs />} />
-        <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/address" element={<Address />} />
-        <Route path="/placement-cards" element={<PlacementCards />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/AdminDashboard" element={<AdminDashboard />} />
-        <Route path="/course-details" element={<CourseDetails/>}/>
+      <Route path="/heroes-card" element={<HeroesCardPlacedCandidate />} />
+      <Route path="/course-details" element={<CourseDetails />} />
+      <Route path="/course-details" element={<CourseDetails />} />
+<Route path="/our-learners1" element={<OurLearners1 />} />
+              <Route path="/upcoming-batch" element={<UpcomingBatch />} />
+              <Route path="/testimonials" element={<Testimonials />} />
+              <Route path="/our-placement" element={<OurPlacement />} />
+              <Route path="/privacy" element={<Privacy />} />
+              <Route path="/policies" element={<Policies />} />
+              <Route path="/follow-us" element={<FollowUs />} />
+              <Route path="/contact-us" element={<ContactUs />} />
+              <Route path="/address" element={<Address />} />
+              <Route path="/placement-cards" element={<PlacementCards />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/AdminDashboard" element={<AdminDashboard />} />
+
+
+
 
       </Routes>
 
 
       // <div>
       //   <h1>NTI Training School</h1>
-
+      
       //   <Footer />
       // </div>
     </Router>

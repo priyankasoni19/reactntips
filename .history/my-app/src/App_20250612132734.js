@@ -27,8 +27,12 @@ import Address from './pages/Address';
 import PlacementCards from './pages/PlacementCards';
 import About from './pages/About';
 import AdminDashboard from './components/AdminDashboard';
+
+
+
 import './App.css';
-import CourseDetails from './pages/CourseDetails';
+
+
 
 function App() {
   return (
@@ -61,7 +65,9 @@ function App() {
         <Route path="/placement-cards" element={<PlacementCards />} />
         <Route path="/about" element={<About />} />
         <Route path="/AdminDashboard" element={<AdminDashboard />} />
-        <Route path="/course-details" element={<CourseDetails/>}/>
+
+
+
 
       </Routes>
 
